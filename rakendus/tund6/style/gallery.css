@@ -1,0 +1,38 @@
+.gallery {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+	background-color: #F0F0F0;
+}
+
+.galleryelement
+{
+	width: 8%;
+	height: 200px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.galleryelement p
+{
+	height: 40px;
+	font-family: arial, sans-serif;
+}
+
+.thumb
+{
+    border-radius: 5px;
+    cursor: pointer;
+	opacity: 0.7;
+	transform-origin: 50% 50%;
+    transition: 0.5s;
+	filter: blur(1px);
+}
+
+.thumb:hover
+{	
+	opacity: 1;
+	filter: none;
+	transform: scale(1.05);
+}
